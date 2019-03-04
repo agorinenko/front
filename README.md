@@ -233,7 +233,18 @@ vue и vuetify, если не сделали это на прошлом заня
 отличаются от функций из methods?
 ## Урок 9. Знакомство с Django Framework (1 день)
 ### Задание
+На основе примеров из DJANGO_README.md и requirements.txt, а также документации вам следует установить и произвести настройку следующих модулей:
+1. [Django версии 2.1.7](https://www.django-rest-framework.org/)
+1. [djangorestframework](https://www.django-rest-framework.org/) для создания REST API для модуля "Рабочее место администратора системы".
+1. [django-rest-swagger](https://django-rest-swagger.readthedocs.io/en/latest/). Генератор документации для Django REST Framework
+1. [django-cors-headers](https://github.com/ottoyiu/django-cors-headers). Разрешение CORS запросов
+Создайте модель, используя базовые сериализаторы serializers.ModelSerializer. Модель должна включать в себя 2 сущности: 
+1. Разделы каталога продукции 
+1. Продукт
+Описание полей смотри в разделе "Введение" выше. 
 ### Задание для самоконтроля
+Открыв Swagger убедитесь в наличии GET, POST, PUT, DELETE методов для каждой сущности. Выполните POST и убедитесь GET,
+что данные сохраняются
 ## Урок 10. Сетевое взаимодействие с веб-сервером (1 день)
 ### Задание
 ### Задание для самоконтроля

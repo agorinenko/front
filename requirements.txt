@@ -1,0 +1,8 @@
+Django==2.1.7
+pytz==2018.9
+djangorestframework
+markdown
+django-filter
+django-rest-swagger
+django-cors-headers
+js2py
